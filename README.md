@@ -30,17 +30,4 @@ Combines recency-based features with advanced rating systems (ELO, PI, GAP) acro
 - **ML**: Scikit-learn, TensorFlow, hyperparameter tuning via grid search
 - **Validation**: 5-fold cross-validation
 
-## Key Challenge
-
-All models struggled with draw prediction due to class imbalance - draws are inherently harder to predict from statistical patterns alone.
-
-## Usage
-
-```bash
-git clone https://github.com/lukeUCL/ML-beat-the-bookie.git
-cd ML-beat-the-bookie
-pip install -r requirements.txt
-python train_model.py
-```
-
 *UCL Computer Science coursework demonstrating ML applications in sports analytics.*
